@@ -1,0 +1,25 @@
+# Dépendances
+node_modules/
+.pnp
+.pnp.js
+
+# Production
+/build
+/dist
+
+# Environnement (SECRETS - ne jamais publier)
+.env
+.env.local
+.env.production
+
+# Logs
+*.log
+npm-debug.log*
+
+# Système
+.DS_Store
+Thumbs.db
+
+# Éditeurs
+.vscode/
+.idea/
